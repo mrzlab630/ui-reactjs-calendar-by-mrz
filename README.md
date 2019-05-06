@@ -16,9 +16,9 @@
 <br/>
 
 ### `Подключение`
-import CalendarWidget from 'ui-calendar-mrz';<br/>
 import React from 'react';<br/>
 import ReactDOM from 'react-dom';<br/>
+import CalendarWidget from 'ui-reactjs-calendar-by-mrz';<br/>
 <br/>
 
 ReactDOM.render(<><br/>
@@ -63,6 +63,17 @@ yarn start / npm start<br/>
 **writeNewPost** calback функция для создания записи по клику на иконку карандаша
 <br/>
 
+## На кофе
+Если этот проект поможет вам сократить время на разработку, вы можете купить мне чашку кофе :)
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="3FYLY9YVBTSEL" />
+<input type="image" src="https://www.paypalobjects.com/en_US/RU/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_RU/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+
 
 ## EN
 
@@ -80,9 +91,9 @@ Based on design [OOybam](https://codepen.io/chrisdpratt/pen/OOybam)
 <br/>
 
 ### `Usage`
-import CalendarWidget from 'ui-calendar-mrz';<br/>
 import React from 'react';<br/>
 import ReactDOM from 'react-dom';<br/>
+import CalendarWidget from 'ui-reactjs-calendar-by-mrz';<br/>
 <br/>
 
 ReactDOM.render(<><br/>
@@ -127,6 +138,15 @@ information - **contentPlan** array [ {
 **writeNewPost** calback function to create a record by clicking on the pencil icon
 <br/>
 
+## Donation
+If this project help you reduce time to develop, you can give me a cup of coffee :)
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="3FYLY9YVBTSEL" />
+<input type="image" src="https://www.paypalobjects.com/en_US/RU/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_RU/i/scr/pixel.gif" width="1" height="1" />
+</form>
 
 
 ### `By`
@@ -135,4 +155,6 @@ information - **contentPlan** array [ {
 ## License
 
 The MIT License.
+
+
 
