@@ -1,6 +1,7 @@
 ## UI-Calendar-mrZ -- CalendarWidget
 
-![preview](https://raw.githubusercontent.com/mrzlab630/ui-reactjs-calendar-by-mrz/blob/master/src/assets/imgs/preview.png)
+![preview](https://github.com/mrzlab630/ui-reactjs-calendar-by-mrz/blob/master/src/assets/imgs/preview.png?raw=true)
+
 
 
 
