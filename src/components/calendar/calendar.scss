@@ -1,0 +1,102 @@
+@import '../../assets/scss/_style.scss';
+
+.CalendarWidget{
+
+  .scrollbar-style::-webkit-scrollbar-track
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(52,54,68,0.3);
+    background-color: $menuBackground;
+  }
+
+  .scrollbar-style::-webkit-scrollbar
+  {
+    width: 3px;
+    background-color: $menuBackground;
+  }
+
+  .scrollbar-style::-webkit-scrollbar-thumb
+  {
+    background-color:$textColor;
+  }
+
+
+
+  & .calendar-bg{
+    background: $menuBackground;
+  }
+
+
+      & .event-btm{
+        overflow: hidden;
+      }
+    & .event-btm:hover{
+      opacity: .9;
+    }
+    & .event-btm:active{
+      background-color: #343a40!important;
+    }
+
+      & .сalendar-navigation-btm{
+        padding: 0;
+        margin: 0;
+
+          & li{
+            display: inline;
+            list-style: none;
+            padding: 0 5px 0 0;
+          }
+
+      }
+      & .day-data{
+        height: 80%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 0 5px 0 0;
+
+      }
+
+
+}
+
+@media (max-width:575px) {
+
+  .CalendarWidget{
+
+
+
+
+    & .display-4 {
+      font-size: 1.5rem;
+    }
+    & .day h5 {
+      background-color: #f8f9fa;
+      padding: 3px 5px 5px;
+      margin: -8px -8px 8px -8px;
+    }
+    & .date {
+      padding-left: 4px;
+    }
+
+
+
+
+  }
+
+
+
+
+}
+
+@media (min-width: 576px) {
+
+  .CalendarWidget{
+
+    & .day {
+      height: 14.2857vw;
+    }
+
+  }
+
+
+
+}
