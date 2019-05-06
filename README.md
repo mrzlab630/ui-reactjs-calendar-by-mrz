@@ -15,21 +15,6 @@
 * [SCSS](https://sass-lang.com/) 
 <br/>
 
-### `Подключение`
-import React from 'react';<br/>
-import ReactDOM from 'react-dom';<br/>
-import CalendarWidget from 'ui-reactjs-calendar-by-mrz';<br/>
-<br/>
-
-ReactDOM.render(<><br/>
-                <CalendarWidget
-                locale={`ru`};<br/>
-                 contentPlan={calendar};<br/>
-                 openPostInfo={e=>console.log(e)};<br/>
-                 writeNewPost={e=>console.log(e)};<br/>
-                 /><br/>
-                 </>, container);<br/>
-                 <br/>
                  
 ### `Запуск`
 yarn install / npm install<br/>
@@ -90,22 +75,7 @@ Based on design [OOybam](https://codepen.io/chrisdpratt/pen/OOybam)
 * [SCSS](https://sass-lang.com/) 
 <br/>
 
-### `Usage`
-import React from 'react';<br/>
-import ReactDOM from 'react-dom';<br/>
-import CalendarWidget from 'ui-reactjs-calendar-by-mrz';<br/>
-<br/>
 
-ReactDOM.render(<><br/>
-                <CalendarWidget
-                locale={`en`};<br/>
-                 contentPlan={calendar};<br/>
-                 openPostInfo={e=>console.log(e)};<br/>
-                 writeNewPost={e=>console.log(e)};<br/>
-                 /><br/>
-                 </>, container);<br/>
-                 <br/>
-                 
 ### `Development`
 yarn install / npm install<br/>
 yarn start / npm start<br/>
