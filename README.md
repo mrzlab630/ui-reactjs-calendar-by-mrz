@@ -1,4 +1,4 @@
-## UI-Calendar-mrZ
+## UI-Calendar-mrZ -- CalendarWidget
 
 
 ## RU
